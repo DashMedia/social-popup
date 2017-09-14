@@ -1,0 +1,19 @@
+{
+  "name": "social-popup",
+  "version": "1.0.0",
+  "description": "Open social share links in a popup",
+  "main": "social-popup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DashMedia/social-popup.git"
+  },
+  "author": "Jason Carney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DashMedia/social-popup/issues"
+  },
+  "homepage": "https://github.com/DashMedia/social-popup#readme"
+}
