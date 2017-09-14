@@ -16,6 +16,7 @@ Currently requires links to already exist in DOM with a common class on the `a`
 
 ## MODX Example
 
+```html
 <ul class="social-share-cta">
       <li><a class="social-share-cta__link" href="http://www.facebook.com/sharer.php?u=[[*id:urlClean:urlencode]]"><span class="social-share-cta__icon icon-facebook social-share-cta__icon--facebook"></span>Share</a></li>
       <li><a class="social-share-cta__link" href="https://twitter.com/intent/tweet?[[+tvSocialCTATwitterName:!empty=`text=%40[[+tvSocialCTATwitterName]]&amp;`]]url=[[*id:urlClean:urlencode]]"><span class="social-share-cta__icon social-share-cta__icon--twitter icon-twitter"></span>Tweet</a></li>
