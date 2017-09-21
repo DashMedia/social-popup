@@ -7,7 +7,9 @@ module.exports = {
   output: {
     path: path.join(__dirname, './dist'),
     filename: 'social-popup.js',
-    library: 'SocialPopup'
+    library: 'SocialPopup',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   module: {
     rules: [{
@@ -20,8 +22,6 @@ module.exports = {
     }],
   },
   plugins: [
-    new MinifyPlugin({
-      mangle: false
-    }),
+    new MinifyPlugin(),
   ]
 }
