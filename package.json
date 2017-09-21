@@ -4,7 +4,8 @@
   "description": "Open social share links in a popup",
   "main": "social-popup.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/DashMedia/social-popup/issues"
   },
-  "homepage": "https://github.com/DashMedia/social-popup#readme"
+  "homepage": "https://github.com/DashMedia/social-popup#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "path": "^0.12.7",
+    "webpack": "^3.6.0"
+  }
 }
