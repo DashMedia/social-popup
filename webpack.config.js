@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, './dist'),
     filename: 'social-popup.js',
+    library: 'SocialPopup'
   },
   module: {
     rules: [{
